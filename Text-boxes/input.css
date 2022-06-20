@@ -1,19 +1,19 @@
+
 body{
 	font-family: Roboto;
 }
 
+h6{
+	text-decoration: underline;
+}
 .search-bar{
 	border: none;
 	box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
 	border-radius: 14px;
 	width: 400px;
 	padding: 6px 8px;
-	cursor: pointer;
+	
 	outline: 0;
-}
-.search-bar:hover{
-
-cursor: pointer;
 }
 
 
@@ -23,18 +23,18 @@ h2{
 }
 
 .avi{
-	width: 40px;
-	height: 40px;
+	width: 35px;
+	height: 35px;
 	object-fit: cover;
 	object-position: center;
 	border-radius: 100px;
 	padding: 6px;
 	vertical-align: middle;
-	margin-top: -4px;
+	margin-top: -1px;
 
 	
 }
-p{
+.paragraph{
 	border-color: red;
 	border: 1px solid;
 	margin-right: 500px;
@@ -48,10 +48,7 @@ p{
 
 }
 
-p:hover{
-	cursor: pointer;
-	box-shadow: 6px 7px 27px rgba(0, 0, 0, 0.5);
-}
+
 
 .content{
 	vertical-align: middle;
@@ -71,10 +68,15 @@ p:hover{
 	font-weight: bolder;
 	border: none;
 	cursor: pointer;
-	margin-left: 150px;
+	margin-left: 190px;
 	transition: box-shadow 0.15s;
 	}
 .tweet-btn:hover{
 	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 }
  
+.googlelogo{
+	margin-left: 95px;
+	margin-bottom: -40px;
+
+}
