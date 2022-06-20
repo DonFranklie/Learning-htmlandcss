@@ -1,105 +1,43 @@
-p{
-	font-family: Arial;
-	margin-top: 0;
-	margin-bottom: 0;
+body{
+	font-family: Roboto;
 }
 
-.video-title{
+.thumbnail1{
+	width: 200px;
+	border-radius: 100px;
+	height: 200px;
+	object-fit: cover;
+	object-position: center;
+	margin: 12px;
 
-	font-weight: bold;
-	font-size: 18px;
-	width: 280px;
-	line-height: 24px;
-	margin-bottom: 5px;
-}
-
-.video-author{
-	color: #606060;
-	margin-bottom: 20px;
-	font-size: 14px;
-	margin-top: 20px;
-}
-.video-stats{
-	width: 280px;
-	color: #606060;
-	font-size: 14px;
-}
-.video-description{
-	width: 280px;
-	color: #606060;
-	font-size: 14px;
-	line-height: 20px;
-	margin-bottom: 100px;
 }
 
-.apple-text{
-	margin-bottom: 50px;
-	font-size: 14px;
-	background-color: #e34140;
-	padding: 18px;
-	text-align: center;
-	color: white;
-	border-width: 200px;
-}
-#icon{
-	color: red;
+.thumbnail2{
+	width: 200px;
+	border-radius: 100px;
+	height: 200px;
+	object-fit: cover;
+	object-position: right;
+	margin: 12px;
+
 }
 
-.shop-now:hover{
-	text-decoration: underline;
-	cursor: pointer;
+.thumbnail3{
+	width: 200px;
+	border-radius: 100px;
+	height: 200px;
+	object-fit: cover;
+	object-position: left;
+	margin: 12px;
+
 }
 
-#icon-apple{
-	color: grey;
-	margin-bottom: 10px;
-	box-sizing: border-box;
-	cursor: pointer;
-}
-
-#icon-apple:hover{
-	color: darkgray;
-
+figcaption{
+	margin-left: 300px;
+	margin-bottom: 75px;
 }
 
 h2{
-	margin-bottom: 0;
 	text-decoration: underline;
-}
-.inflation{
-	line-height: 15px;
-	margin-top: 15px;
-}
-.price1{
-	font-size: 20px;
-	font-weight: bold;
-}
-.usd{
-	font-size: 11.5px;
-	font-weight: bold;
-}
-
-.today{
-	font-size: 12.5px;
-	color: #2bcc1d;
-}
-.after-hours{
-	font-size: 12px;
-}
-.after{
-	color: #f02522;
-}
-
-.after-hours, .usd{
-	color: #827e7e;
-}
-
-.parag-tweet{
-	font-size: 14px;
-	margin-top: 12px;
-}
-
-.user-name{
-	color: #827e7e;
-
+	text-align: center;
 }
