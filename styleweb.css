@@ -2,42 +2,78 @@ body{
 	font-family: Roboto;
 }
 
-.thumbnail1{
-	width: 200px;
-	border-radius: 100px;
-	height: 200px;
-	object-fit: cover;
-	object-position: center;
-	margin: 12px;
+.search-bar{
+	border: none;
+	box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+	border-radius: 14px;
+	width: 400px;
+	padding: 6px 8px;
+	cursor: pointer;
+	outline: 0;
+}
+.search-bar:hover{
 
+cursor: pointer;
 }
 
-.thumbnail2{
-	width: 200px;
-	border-radius: 100px;
-	height: 200px;
-	object-fit: cover;
-	object-position: right;
-	margin: 12px;
-
-}
-
-.thumbnail3{
-	width: 200px;
-	border-radius: 100px;
-	height: 200px;
-	object-fit: cover;
-	object-position: left;
-	margin: 12px;
-
-}
-
-figcaption{
-	margin-left: 300px;
-	margin-bottom: 75px;
-}
 
 h2{
 	text-decoration: underline;
 	text-align: center;
+}
+
+.avi{
+	width: 40px;
+	height: 40px;
+	object-fit: cover;
+	object-position: center;
+	border-radius: 100px;
+	padding: 6px;
+	vertical-align: middle;
+	margin-top: -4px;
+
+	
+}
+p{
+	border-color: red;
+	border: 1px solid;
+	margin-right: 500px;
+	box-shadow: 6px 7px 27px rgba(0, 0, 0, 0.3);
+	border: none;
+	border-radius: 23px;
+	cursor: pointer;
+	display: inline-block;
+	width: 430px;
+	height: 45px;
+
+}
+
+p:hover{
+	cursor: pointer;
+	box-shadow: 6px 7px 27px rgba(0, 0, 0, 0.5);
+}
+
+.content{
+	vertical-align: middle;
+	font-size: 14px;
+	color: grey;
+	margin-top: -4px;
+}
+
+.tweet-btn{
+	vertical-align: middle;
+	font-size: 12x;
+    margin-left: 10px;
+    background-color: rgb(2, 158, 255);
+	color: #fff;
+	padding: 9px 11px;
+	border-radius: 18px;
+	font-weight: bolder;
+	border: none;
+	cursor: pointer;
+	margin-left: 150px;
+	transition: box-shadow 0.15s;
+	}
+.tweet-btn:hover{
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 }
