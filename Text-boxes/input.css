@@ -1,82 +1,131 @@
-
 body{
-	font-family: Roboto;
+font-family: Roboto;
 }
-
-h6{
-	text-decoration: underline;
+h5{
+text-decoration: underline;
 }
 .search-bar{
-	border: none;
-	box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
-	border-radius: 14px;
-	width: 400px;
-	padding: 6px 8px;
-	
-	outline: 0;
+border: none;
+box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+border-radius: 14px;
+width: 400px;
+padding: 6px 8px;
+
+outline: 0;
 }
-
-
 h2{
-	text-decoration: underline;
-	text-align: center;
+    text-decoration: underline;
 }
 
 .avi{
-	width: 35px;
-	height: 35px;
-	object-fit: cover;
-	object-position: center;
-	border-radius: 100px;
-	padding: 6px;
-	vertical-align: middle;
-	margin-top: -1px;
+width: 35px;
+height: 35px;
+object-fit: cover;
+object-position: center;
+border-radius: 100px;
+padding: 6px;
+vertical-align: middle;
+margin-top: -1px;
 
-	
 }
 .paragraph{
-	border-color: red;
-	border: 1px solid;
-	margin-right: 500px;
-	box-shadow: 6px 7px 27px rgba(0, 0, 0, 0.3);
-	border: none;
-	border-radius: 23px;
-	cursor: pointer;
-	display: inline-block;
-	width: 430px;
-	height: 45px;
-
+border-color: red;
+border: 1px solid;
+margin-right: 500px;
+box-shadow: 6px 7px 27px rgba(0, 0, 0, 0.3);
+border: none;
+border-radius: 23px;
+cursor: pointer;
+display: inline-block;
+width: 430px;
+height: 45px;
 }
-
-
-
 .content{
-	vertical-align: middle;
-	font-size: 14px;
-	color: grey;
-	margin-top: -4px;
+vertical-align: middle;
+font-size: 14px;
+color: grey;
+margin-top: -4px;
 }
-
 .tweet-btn{
-	vertical-align: middle;
-	font-size: 12x;
-    margin-left: 10px;
-    background-color: rgb(2, 158, 255);
-	color: #fff;
-	padding: 9px 11px;
-	border-radius: 18px;
-	font-weight: bolder;
-	border: none;
-	cursor: pointer;
-	margin-left: 190px;
-	transition: box-shadow 0.15s;
-	}
-.tweet-btn:hover{
-	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+vertical-align: middle;
+font-size: 12x;
+margin-left: 10px;
+background-color: rgb(2, 158, 255);
+color: #fff;
+padding: 9px 11px;
+border-radius: 18px;
+font-weight: bolder;
+border: none;
+cursor: pointer;
+margin-left: 190px;
+transition: box-shadow 0.15s;
 }
- 
-.googlelogo{
-	margin-left: 95px;
-	margin-bottom: -40px;
+.tweet-btn:hover{
+box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
 
+.googlelogo{
+margin-left: 95px;
+margin-bottom: -40px;
+}
+.main-content{
+	margin-left: 50px;
+}
+.other1, .other2{
+border: none;
+padding: 6px;
+cursor: pointer;
+}
+.search-btns{
+margin-top: 32px;
+margin-left: 72px;
+}
+.google-search, .box, .signup-form{
+
+display: inline-block;
+}
+.name{
+border-radius: 8px;
+padding: 8px;
+border-style: solid;
+border-width: 0.5px;
+width: 100px;
+outline: 0;
+
+}
+.email{
+	margin-top: 7px;
+	width: 223px;
+	border-radius: 8px;
+	padding: 9px;
+	border-width: 0.5px;
+	border-style: solid;
+	outline: 0;
+}
+
+.sign-btn{
+	margin-top: 7px;
+	width: 241px;
+	border-radius: 8px;
+	padding: 9px;
+	border-width: 0.5px;
+	border-style: solid;
+	border: none;
+	font-weight: bold;
+	background-color: #4343eb;
+	color: #fff;
+	cursor: pointer;
+
+}
+
+.box{
+	width: 300px;
+	vertical-align: top;
+	margin-left: 50px;
+}
+
+.signup-form{
+	margin-left: 200px;
+	vertical-align: top;
+	
 }
