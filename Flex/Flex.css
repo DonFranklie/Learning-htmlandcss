@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-evenly; */
+    background-color: #f4f4f4;
+    padding: 10px;
+    /* align-items: center; */
+    flex-wrap: wrap;
+
+}
+
+.flex-items{
+    padding: 10px;
+    margin: 10px;
+    color: #fff;
+    /* Can be used to determine the width of a flex item */
+    flex-basis: 100px; 
+    height: 100px;
+    background: steelblue;
+    border: 2px skyblue solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.flex-items:nth-of-type(1) {
+    /* order: 2; */
+    flex-basis: 400px;
+   
+}
+
+.flex-items:nth-of-type(2){
+    /* order: 3; */
+    flex-basis: 200px; 
+   
+}
+
+.flex-items:nth-of-type(3){ 
+    /* order: 1; */
+    flex-basis: 200px; 
+    
+}
+
+
