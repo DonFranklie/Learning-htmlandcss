@@ -104,9 +104,17 @@ ul{
     background-color: #0a51cc;
     color: white;
     border-radius: 10px;
-    margin: 20px 10px;
+    margin: 40px 10px;
     padding: 15px 20px;
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+    transition: all 0.4s;
+    text-align: center;
+}
+
+.box:hover{
+    transform: scale(1.1);
+    color: black;
 }
 
 .box i{
