@@ -20,8 +20,13 @@
 }
 
 .right-section{
-    background-color: lightblue;
     width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 24px;
+    /* Prevents shrinking */
+    flex-shrink: 0;
 }
 
 
@@ -31,7 +36,7 @@
 }
 
 .youtube-logo{
-    height: 20px;
+    height: 24px;
     margin: 0 20px;
 
 }
@@ -45,6 +50,8 @@
     border: rgba(0, 0, 0, 0.3) solid 0.2px;
     box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
     border-right: 0px;
+    width: 0;
+    outline: 0;
 }
 
 .search-bar::placeholder{
@@ -54,28 +61,47 @@
 
 .search-button{
     height: 40px;
-    width: 60px;
-    margin-left: -20px;
-    background-color: rgba(0, 0, 0, 0.055);
-    border: rgba(0, 0, 0, 0.05) solid 0.2px;
+    width: 66px;
     border-radius: 2px;
-
+    background-color: rgb(240, 240, 240);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(192, 192, 192);
+    margin-left: -1px;
+    margin-right: 10px;
+    cursor: pointer;
     
+}
+
+.search-icon{
+    height: 25px;
+    margin-top: 4px;
 }
 
 .voice-search-button{
     height: 40px;
     width: 40px;
+  /* If you set it to half the width, it will be round */
+    border-radius: 20px;
     border: none;
-    border-radius: 100px;
-    background-color: rgba(0, 0, 0, 0.05);
-}
-
-.search-icon{
-    height: 25px;
+    background-color: rgb(245, 245, 245);
+    cursor: pointer;
 }
 
 .voice-search-icon{
-        height: 18px;
-        width: 30px;
+        height: 24px;
+        margin-top: 4px;
+}
+
+.right-icons{
+    height: 25px;
+    width: 40px;
+    width: 31px;
+    cursor: pointer;
+
+}
+
+.my-channel-pic{
+    height: 32px;
+    border-radius: 16px;
 }
