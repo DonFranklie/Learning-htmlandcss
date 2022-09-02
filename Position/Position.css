@@ -28,14 +28,29 @@ body{
     left: 0;
     right: 0;
     height: 60px;
+    /* Determines which element appears above */
+    z-index: 100;
 }
 
 .side-bar{
     background-color: green;
     color: white;
+    /* This Position puts the items on the Browser Window */
     position: fixed;
     left: 0;
     bottom: 0;
     top: 60px;
     width: 72px;
+}
+
+.absolute{
+    color: white;
+    background-color: red;
+    /* This Position puts the items on the Page Window which moves when we scroll*/
+    
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    
 }
