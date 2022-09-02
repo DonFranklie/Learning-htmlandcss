@@ -1,0 +1,41 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    height: 3000px;
+    padding-top: 80px;
+    padding-left: 73px;
+}
+
+.div-1{
+    background-color: lightblue;
+    height: 200px;
+    width: 200px;
+}
+
+.div-2{
+    background-color: salmon;
+    height: 200px;
+    width: 200px;
+}
+
+.header{
+    background-color: black;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+}
+
+.side-bar{
+    background-color: green;
+    color: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 60px;
+    width: 72px;
+}
