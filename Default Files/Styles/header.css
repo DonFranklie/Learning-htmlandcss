@@ -2,7 +2,12 @@
     height: 55px;
     display: flex;
     justify-content: space-between;
-
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: #fff;
+    border-bottom: 1px solid rgb(228, 220, 220);
 }
 
 .left-section{
