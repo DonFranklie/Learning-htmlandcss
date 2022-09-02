@@ -8,6 +8,7 @@
     left: 0;
     background-color: #fff;
     border-bottom: 1px solid rgb(228, 220, 220);
+    z-index: 100;
 }
 
 .left-section{
@@ -111,4 +112,22 @@
     border-radius: 16px;
     object-position: cover;
     object-fit: top;
+}
+
+.notifications-icon-container{
+    position: relative;
+    
+}
+
+.notifications-count{
+    position: absolute;
+    top: -2px;
+    right: -0.8px;
+
+    font-size: 11px;
+    font-family: Roboto, Arial;
+    background-color: rgb(200, 0, 0);
+    color: white;
+    border-radius: 10px;
+    padding: 2px 5px;
 }
