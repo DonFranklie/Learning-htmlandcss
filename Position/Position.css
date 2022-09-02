@@ -18,6 +18,8 @@ body{
     background-color: salmon;
     height: 200px;
     width: 200px;
+
+    position: relative;
 }
 
 .header{
@@ -45,12 +47,12 @@ body{
 
 .absolute{
     color: white;
-    background-color: red;
+    background-color: black;
     /* This Position puts the items on the Page Window which moves when we scroll*/
     
     position: absolute;
-    top: 0;
-    right: 0;
+    right: 10px;
+    bottom: 10px;
 
     
 }
