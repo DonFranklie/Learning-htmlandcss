@@ -109,4 +109,6 @@
 .my-channel-pic{
     height: 32px;
     border-radius: 16px;
+    object-position: cover;
+    object-fit: top;
 }
