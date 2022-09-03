@@ -15,9 +15,32 @@
 	row-gap: 40px;
 }
 
+@media(max-width:768px){
+	.video-grid{
+		grid-template-columns: 1fr 1fr;
+	}
+}
+
+@media(max-width:538px){
+	.video-grid{
+		grid-template-columns: 1fr ;
+	}
+}
+
+@media(min-width:769px) and (max-width:1023){
+	.video-grid{
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+}
+
+@media(min-width:1024px){
+	.video-grid{
+		grid-template-columns: 1fr 1fr 1fr 1fr ;
+	}
+}
+
 .thumbnail{
 	width: 100%;
-
 }
 
 .video-info-grid{
