@@ -1,0 +1,134 @@
+body{
+font-family: Roboto;
+background-color: white;
+}
+
+.search-bar{
+border: none;
+box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+border-radius: 14px;
+width: 400px;
+padding: 6px 8px;
+outline: 0;
+}
+
+h2, h3{
+    text-decoration: underline;
+}
+
+
+.avi{
+width: 35px;
+height: 35px;
+object-fit: cover;
+object-position: center;
+border-radius: 100px;
+padding: 6px;
+vertical-align: middle;
+margin-top: -1px;
+
+}
+
+.paragraph{
+border: none;
+box-shadow: 6px 7px 27px rgba(0, 0, 0, 0.2);
+border-radius: 12px;
+cursor: pointer;
+display: inline-block;
+width: 430px;
+height: 45px;
+}
+
+.content{
+vertical-align: middle;
+font-size: 14px;
+color: grey;
+margin-top: -4px;
+}
+.tweet-btn{
+vertical-align: middle;
+font-size: 12x;
+margin-left: 10px;
+background-color: rgb(2, 158, 255);
+color: #fff;
+padding: 9px 11px;
+border-radius: 18px;
+font-weight: bolder;
+border: none;
+cursor: pointer;
+margin-left: 190px;
+transition: box-shadow 0.15s;
+}
+.tweet-btn:hover{
+box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.googlelogo{
+margin-left: 10px;
+margin-bottom: -40px;
+}
+.main-content{
+	margin-left: 50px;
+	text-align: center;
+}
+.other1, .other2{
+border: none;
+padding: 6px;
+cursor: pointer;
+}
+.search-btns{
+margin-top: 32px;
+margin-left: 10px;
+}
+
+ 
+.name{
+border-radius: 8px;
+padding: 8px;
+border-style: solid;
+border-width: 0.5px;
+width: 100px;
+outline: 0;
+
+}
+.email{
+	margin-top: 7px;
+	width: 223px;
+	border-radius: 8px;
+	padding: 9px;
+	border-width: 0.5px;
+	border-style: solid;
+	outline: 0;
+}
+.tweet-box{
+	text-align: center;
+}
+
+.sign-btn{
+	margin-top: 7px;
+	width: 241px;
+	border-radius: 8px;
+	padding: 9px;
+	border-width: 0.5px;
+	border-style: solid;
+	border: none;
+	font-weight: bold;
+	background-color: #4343eb;
+	color: #fff;
+	cursor: pointer;
+
+}
+
+.box{
+	
+	vertical-align: top;
+	text-align: center;
+}
+
+.signup-form{
+	margin-top: 20px;
+	padding-top: 20px;
+	vertical-align: top;
+	border-width: 1px;
+	padding-bottom: 16px;	
+}
